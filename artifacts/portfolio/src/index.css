@@ -65,16 +65,16 @@
   --popover-foreground: 210 40% 90%;
   --popover-border: 240 28% 14%;
 
-  --primary: 190 100% 50%;
+  --primary: 271 91% 65%;
   --primary-foreground: 240 20% 5%;
 
-  --secondary: 262 83% 58%;
+  --secondary: 290 70% 60%;
   --secondary-foreground: 210 40% 90%;
 
   --muted: 240 28% 14%;
   --muted-foreground: 215 16% 47%;
 
-  --accent: 190 100% 50%;
+  --accent: 271 91% 65%;
   --accent-foreground: 240 20% 5%;
 
   --destructive: 0 84% 60%;
@@ -90,7 +90,7 @@
   --foreground: 210 40% 90%;
   --border: 240 17% 12%;
   --input: 240 17% 12%;
-  --ring: 190 100% 50%;
+  --ring: 271 91% 65%;
 
   --card: 240 17% 8%;
   --card-foreground: 210 40% 90%;
@@ -100,16 +100,16 @@
   --popover-foreground: 210 40% 90%;
   --popover-border: 240 28% 14%;
 
-  --primary: 190 100% 50%;
+  --primary: 271 91% 65%;
   --primary-foreground: 240 20% 5%;
 
-  --secondary: 262 83% 58%;
+  --secondary: 290 70% 60%;
   --secondary-foreground: 210 40% 90%;
 
   --muted: 240 28% 14%;
   --muted-foreground: 215 16% 47%;
 
-  --accent: 190 100% 50%;
+  --accent: 271 91% 65%;
   --accent-foreground: 240 20% 5%;
 
   --destructive: 0 84% 60%;
@@ -134,15 +134,15 @@
 }
 
 .neon-glow {
-  box-shadow: 0 0 15px 2px rgba(0, 212, 255, 0.3);
+  box-shadow: 0 0 15px 2px rgba(168, 85, 247, 0.3);
 }
 
 .neon-glow-hover:hover {
-  box-shadow: 0 0 20px 4px rgba(0, 212, 255, 0.4);
+  box-shadow: 0 0 20px 4px rgba(168, 85, 247, 0.4);
 }
 
 .neon-text {
-  text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+  text-shadow: 0 0 10px rgba(168, 85, 247, 0.5);
 }
 
 .bg-grid-pattern {

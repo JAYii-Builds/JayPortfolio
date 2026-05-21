@@ -9,7 +9,7 @@ const projects = [
     description: "A community website for Saint Raphael the Archangel Parish in Tarlac. Built to serve the parish community.",
     tags: ["HTML/CSS", "PHP"],
     link: "https://sanrafaelparish.net/",
-    isClientWork: true,
+    isClientWork: false,
     isNew: false,
   },
   {
@@ -77,13 +77,11 @@ export function Projects() {
                   <CardHeader>
                     <div className="flex justify-between items-start mb-4">
                       <div className="flex flex-col gap-2">
-                        {(project.isNew || project.isClientWork) && (
-                          <div className="flex gap-2 flex-wrap">
-                            {project.isNew && (
-                              <Badge variant="secondary" className="bg-primary/20 text-primary hover:bg-primary/30 border-none font-mono text-xs">
-                                NEW ⭐
-                              </Badge>
-                            )}
+                        {project.isNew && (
+                          <div className="flex gap-2">
+                            <Badge variant="secondary" className="bg-primary/20 text-primary hover:bg-primary/30 border-none font-mono text-xs">
+                              NEW ⭐
+                            </Badge>
                             {project.isClientWork && (
                               <Badge variant="secondary" className="bg-secondary/20 text-secondary hover:bg-secondary/30 border-none font-mono text-xs">
                                 Client Work
