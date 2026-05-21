@@ -4,13 +4,15 @@ import { Card, CardContent } from "@/components/ui/card";
 const skills = [
   { name: "HTML/CSS", level: 90 },
   { name: "JavaScript", level: 80 },
-  { name: "TypeScript", level: 70 },
+  { name: "TypeScript", level: 80 },
   { name: "PHP", level: 70 },
   { name: "Aoi.js", level: 85 },
   { name: "Discord.js", level: 80 },
   { name: "React", level: 65 },
   { name: "Node.js", level: 60 },
 ];
+
+const tools = ["Neon", "Clerk", "Supabase", "MongoDB"];
 
 export function About() {
   return (
@@ -58,6 +60,20 @@ export function About() {
                       </div>
                     </div>
                   ))}
+                </div>
+
+                <div className="mt-8 pt-6 border-t border-border">
+                  <h4 className="font-mono text-sm text-muted-foreground mb-3">Databases & Auth</h4>
+                  <div className="flex flex-wrap gap-2">
+                    {tools.map((tool) => (
+                      <span
+                        key={tool}
+                        className="px-3 py-1 rounded-full text-xs font-mono border border-primary/40 text-primary bg-primary/10"
+                      >
+                        {tool}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </CardContent>
             </Card>
