@@ -42,7 +42,7 @@ export function Contact() {
                   <SiDiscord className="h-6 w-6" />
                 </a>
                 <a 
-                  href="https://github.com/Discord-Bot-Developers1" 
+                  href="https://github.com/JAYii-Builds" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-3 bg-muted rounded-full text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
