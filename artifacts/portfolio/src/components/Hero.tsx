@@ -63,7 +63,7 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="flex-shrink-0"
           >
-            <div className="relative w-56 h-56 md:w-72 md:h-72">
+            <div className="relative w-56 h-56 md:w-96 md:h-96">
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary via-secondary to-primary opacity-30 blur-2xl animate-pulse" />
               <div className="relative w-full h-full rounded-full border-2 border-primary/50 overflow-hidden shadow-[0_0_40px_rgba(0,212,255,0.3)]">
                 <img
