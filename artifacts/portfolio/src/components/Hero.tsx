@@ -26,7 +26,7 @@ export function Hero() {
             <p className="text-primary font-mono mb-4 neon-text">Hi, my name is</p>
             <h1 className="text-5xl md:text-7xl font-bold mb-4">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-primary bg-300% animate-gradient">
-                Jay Lumawa
+                Arjay Lumawod
               </span>
             </h1>
             <h2 className="text-3xl md:text-4xl font-bold text-muted-foreground mb-6">
@@ -68,7 +68,7 @@ export function Hero() {
               <div className="relative w-full h-full rounded-full border-2 border-primary/50 overflow-hidden shadow-[0_0_40px_rgba(0,212,255,0.3)]">
                 <img
                   src="/jay-photo.png"
-                  alt="Jay Lumawa"
+                  alt="Arjay Lumawod"
                   className="w-full h-full object-cover object-top"
                   data-testid="img-avatar"
                 />

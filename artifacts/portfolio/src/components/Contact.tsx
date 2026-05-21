@@ -27,7 +27,7 @@ export function Contact() {
             <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             <CardContent className="p-8 flex flex-col sm:flex-row items-center justify-center gap-8 relative z-10">
               <Button asChild variant="outline" className="h-14 px-8 border-primary text-primary hover:bg-primary/10 text-lg neon-glow">
-                <a href="mailto:jay@example.com">
+                <a href="mailto:jayii.lumawod@gmail.com">
                   <FaEnvelope className="mr-2 h-5 w-5" />
                   Say Hello
                 </a>
@@ -35,7 +35,7 @@ export function Contact() {
               
               <div className="flex gap-4">
                 <a 
-                  href="#" 
+                  href="https://discord.com/channels/@chillw.leoz" 
                   className="p-3 bg-muted rounded-full text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
                   aria-label="Discord"
                 >

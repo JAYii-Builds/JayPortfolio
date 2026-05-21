@@ -8,7 +8,7 @@ export function Footer() {
           rel="noopener noreferrer"
           className="font-mono text-sm text-muted-foreground hover:text-primary transition-colors"
         >
-          Designed & Built by Jay Lumawa
+          Designed & Built by Jay Lumawod. JAYii
         </a>
       </div>
     </footer>
