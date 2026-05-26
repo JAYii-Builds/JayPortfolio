@@ -15,7 +15,7 @@ export function Contact() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-3xl font-bold mb-6 flex items-center justify-center gap-4">
-            <span className="text-primary font-mono text-xl">03.</span> What's Next?
+            <span className="text-primary font-mono text-xl">04.</span> What's Next?
           </h2>
           <h3 className="text-4xl md:text-5xl font-bold mb-8 text-foreground">Get In Touch</h3>
           
